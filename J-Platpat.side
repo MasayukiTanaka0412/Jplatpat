@@ -1,0 +1,127 @@
+{
+  "id": "097f673b-f375-4c23-9b63-826ffae12daa",
+  "version": "2.0",
+  "name": "J-Platat",
+  "url": "https://www.j-platpat.inpit.go.jp",
+  "tests": [{
+    "id": "c0e62f4f-a51c-48aa-8a6e-828c2d3cf510",
+    "name": "ガバナンスクラウド",
+    "commands": [{
+      "id": "c69deba5-ac2a-4336-a3ef-3835809a4606",
+      "comment": "",
+      "command": "open",
+      "target": "/s0100",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "762bd21c-d0aa-4d09-b960-023807fde3aa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44e28f4f-e7aa-481b-bfbe-a16e73e89a05",
+      "comment": "",
+      "command": "click",
+      "target": "id=s01_srchCondtn_txtSimpleSearch",
+      "targets": [
+        ["id=s01_srchCondtn_txtSimpleSearch", "id"],
+        ["name=s01_srchCondtn_txtSimpleSearch", "name"],
+        ["css=#s01_srchCondtn_txtSimpleSearch", "css:finder"],
+        ["xpath=//input[@id='s01_srchCondtn_txtSimpleSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='s01_main']/div/div/section/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a81cbb9c-2860-4f74-bee5-095e56c4c9a4",
+      "comment": "",
+      "command": "type",
+      "target": "id=s01_srchCondtn_txtSimpleSearch",
+      "targets": [
+        ["id=s01_srchCondtn_txtSimpleSearch", "id"],
+        ["name=s01_srchCondtn_txtSimpleSearch", "name"],
+        ["css=#s01_srchCondtn_txtSimpleSearch", "css:finder"],
+        ["xpath=//input[@id='s01_srchCondtn_txtSimpleSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='s01_main']/div/div/section/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "ガバナンス クラウド"
+    }, {
+      "id": "9081cfca-156b-4c9e-aaca-5b1f98c5e45e",
+      "comment": "",
+      "command": "type",
+      "target": "id=s01_srchCondtn_txtSimpleSearch",
+      "targets": [
+        ["id=s01_srchCondtn_txtSimpleSearch", "id"],
+        ["name=s01_srchCondtn_txtSimpleSearch", "name"],
+        ["css=#s01_srchCondtn_txtSimpleSearch", "css:finder"],
+        ["xpath=//input[@id='s01_srchCondtn_txtSimpleSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='s01_main']/div/div/section/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "ガバナンスクラウド"
+    }, {
+      "id": "68497ce8-f03d-4001-b017-54d6dd71ccb0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#s01_srchBtn_btnSearch > span",
+      "targets": [
+        ["css=#s01_srchBtn_btnSearch > span", "css:finder"],
+        ["xpath=//a[@id='s01_srchBtn_btnSearch']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8145363-add4-407e-88aa-05a7b3d395fb",
+      "comment": "",
+      "command": "click",
+      "target": "id=s01_srchCondtn_txtSimpleSearch",
+      "targets": [
+        ["id=s01_srchCondtn_txtSimpleSearch", "id"],
+        ["name=s01_srchCondtn_txtSimpleSearch", "name"],
+        ["css=#s01_srchCondtn_txtSimpleSearch", "css:finder"],
+        ["xpath=//input[@id='s01_srchCondtn_txtSimpleSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='s01_main']/div/div/section/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd6040ae-b07d-48ad-bd81-3a8747f02b2d",
+      "comment": "",
+      "command": "type",
+      "target": "id=s01_srchCondtn_txtSimpleSearch",
+      "targets": [
+        ["id=s01_srchCondtn_txtSimpleSearch", "id"],
+        ["name=s01_srchCondtn_txtSimpleSearch", "name"],
+        ["css=#s01_srchCondtn_txtSimpleSearch", "css:finder"],
+        ["xpath=//input[@id='s01_srchCondtn_txtSimpleSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='s01_main']/div/div/section/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "ガバナンス クラウド"
+    }, {
+      "id": "93877bdf-bcdf-4c1d-bd76-40799f3485eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#s01_srchBtn_btnSearch > span",
+      "targets": [
+        ["css=#s01_srchBtn_btnSearch > span", "css:finder"],
+        ["xpath=//a[@id='s01_srchBtn_btnSearch']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5ca19445-aa2b-4b7b-8fd7-f774331b8837",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c0e62f4f-a51c-48aa-8a6e-828c2d3cf510"]
+  }],
+  "urls": ["https://www.j-platpat.inpit.go.jp/"],
+  "plugins": []
+}
